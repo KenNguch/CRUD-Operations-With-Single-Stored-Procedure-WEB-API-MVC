@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yq+HerwttCAwokt+p2matFjyHCNbkXxpl70dg2ZcMfWsRkM+/y3LEwR4/wCtCnLZ4l8XWbC50YVnTwdOo2ekqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kngure\\source\\repos\\CRUD-WEB-API-SP-MVC\\CRUD-WEB-API-SP-MVC\\CRUD-WEB-API-SP-MVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kngure\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\kngure\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\kngure\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\kngure\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\kngure\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\kngure\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
