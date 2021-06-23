@@ -11,6 +11,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CRUD_WEB_API_SP_MVC.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 namespace CRUD_WEB_API_SP_MVC
 {
@@ -26,12 +29,14 @@ namespace CRUD_WEB_API_SP_MVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "CRUD_WEB_API_SP_MVC", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo {Title = "CRUD_WEB_API_SP_MVC", Version = "v1"});
             });
+
+            services.AddDbContext<Context>(options => options.UseInMemoryDatabase("catalogue"));
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,10 +55,7 @@ namespace CRUD_WEB_API_SP_MVC
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }
 }

@@ -8,6 +8,6 @@ namespace CRUD_WEB_API_SP_MVC.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime DateOfBirth { get; set; }
-        public string BookId { get; set; }
+        public int BookId { get; set; }
     }
 }
