@@ -20,6 +20,9 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
       <option value="$PROJECT_DIR$/Controllers/ProductsController.cs" />
+      <option value="$PROJECT_DIR$/Models/Auther.cs" />
+      <option value="$PROJECT_DIR$/Models/Author.cs" />
+      <option value="$PROJECT_DIR$/Models/Book.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uLABk9eL07AXpCdc38Eh0kYVsC" />
@@ -75,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624434367037</updated>
-      <workItem from="1624434389758" duration="641000" />
+      <workItem from="1624434389758" duration="3288000" />
     </task>
     <servers />
   </component>
