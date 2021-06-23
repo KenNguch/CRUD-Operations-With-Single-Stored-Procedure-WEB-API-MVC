@@ -18,8 +18,8 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Controllers/ProductsController.cs" />
       <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
+      <option value="$PROJECT_DIR$/Controllers/ProductsController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uLABk9eL07AXpCdc38Eh0kYVsC" />
@@ -75,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624434367037</updated>
-      <workItem from="1624434389758" duration="518000" />
+      <workItem from="1624434389758" duration="641000" />
     </task>
     <servers />
   </component>

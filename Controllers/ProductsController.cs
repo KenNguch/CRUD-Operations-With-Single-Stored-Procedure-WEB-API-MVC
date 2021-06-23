@@ -15,7 +15,7 @@ namespace CRUD_WEB_API_SP_MVC.Controllers
         [HttpGet]
         public string products()
         {
-            return "Test Product";
+            return "Api Test Product Controller";
         }
     }
 }
