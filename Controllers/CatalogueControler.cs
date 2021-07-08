@@ -6,6 +6,7 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using CRUD_WEB_API_SP_MVC.Models;
+using DefaultNamespace;
 using Microsoft.EntityFrameworkCore;
 
 namespace CRUD_WEB_API_SP_MVC.Controllers
@@ -25,9 +26,13 @@ namespace CRUD_WEB_API_SP_MVC.Controllers
 
         [HttpGet]
         [Route("authors")]
-        public async Task<IActionResult> GetAllAuthors()
+        public async Task<IActionResult> GetAllAuthors([FromQuery] QueryParameters queryParameters)
         {
-            return Ok(await _context.Authors.ToArrayAsync());
+            IQueryable<Author> authors = _context.Authors;
+
+            authors = queryParameters.size >0 ? authors.Skip(queryParameters.size * (queryParameters.page - 1)).Take(queryParameters.size) : authors;
+
+            return Ok(await authors.ToArrayAsync());
         }
 
         [HttpGet]
