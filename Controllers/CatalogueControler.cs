@@ -6,6 +6,7 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using CRUD_WEB_API_SP_MVC.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CRUD_WEB_API_SP_MVC.Controllers
 {
@@ -24,16 +25,16 @@ namespace CRUD_WEB_API_SP_MVC.Controllers
 
         [HttpGet]
         [Route("authors")]
-        public IActionResult GetAllAuthors()
+        public async Task<IActionResult> GetAllAuthors()
         {
-            return Ok(_context.Authors.ToArray());
+            return Ok(await _context.Authors.ToArrayAsync());
         }
 
         [HttpGet]
         [Route("authors/{id:int}")]
-        public IActionResult GetAuthor(int id)
+        public async Task<IActionResult> GetAuthor(int id)
         {
-            var author = _context.Authors.Find(id);
+            var author = await _context.Authors.FindAsync(id);
 
             if (author == null)
             {
