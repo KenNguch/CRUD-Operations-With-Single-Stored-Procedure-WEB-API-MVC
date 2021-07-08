@@ -7,6 +7,7 @@
     <list default="true" id="ccde82ba-3d4a-4416-99a1-08ac64c2d2cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CRUD-WEB-API-SP-MVC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CRUD-WEB-API-SP-MVC.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/CatalogueControler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/CatalogueControler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ProductsController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,13 +23,13 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
-      <option value="$PROJECT_DIR$/Controllers/ProductsController.cs" />
       <option value="$PROJECT_DIR$/Models/Auther.cs" />
       <option value="$PROJECT_DIR$/Models/Book.cs" />
       <option value="$PROJECT_DIR$/Models/Author.cs" />
       <option value="$PROJECT_DIR$/Models/ModelBuilderExtensions.cs" />
       <option value="$PROJECT_DIR$/Startup.cs" />
       <option value="$PROJECT_DIR$/Models/Context.cs" />
+      <option value="$PROJECT_DIR$/Controllers/ProductsController.cs" />
       <option value="$PROJECT_DIR$/Controllers/CatalogueControler.cs" />
     </changedPaths>
   </component>
@@ -87,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624434367037</updated>
       <workItem from="1624434389758" duration="7873000" />
-      <workItem from="1625729951727" duration="1738000" />
+      <workItem from="1625729951727" duration="2895000" />
     </task>
     <servers />
   </component>
