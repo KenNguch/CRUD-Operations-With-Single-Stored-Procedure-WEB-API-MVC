@@ -25,9 +25,9 @@ namespace CRUD_WEB_API_SP_MVC.Controllers
 
 		[HttpGet]
 		[Route("authors")]
-		public IEnumerable<Author> GetAllAuthors()
+		public IActionResult GetAllAuthors()
 		{
-			return _context.Authors.ToArray();
+			return Ok(_context.Authors.ToArray());
 		}
 	}
 }
