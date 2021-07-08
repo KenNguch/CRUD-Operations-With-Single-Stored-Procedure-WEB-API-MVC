@@ -30,7 +30,7 @@ namespace CRUD_WEB_API_SP_MVC.Controllers
         }
 
         [HttpGet]
-        [Route("authors/{id}")]
+        [Route("authors/{id:int}")]
         public IActionResult GetAuthor(int id)
         {
             var author = _context.Authors.Find(id);
