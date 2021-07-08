@@ -2,11 +2,10 @@
 
 namespace CRUD_WEB_API_SP_MVC.Models
 {
-    public class Context :DbContext
+    public class Context : DbContext
     {
-        public Context(DbContextOptions<Context> options) :base (options)
+        public Context(DbContextOptions<Context> options) : base(options)
         {
-           
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -14,7 +13,7 @@ namespace CRUD_WEB_API_SP_MVC.Models
             modelBuilder.Seed();
         }
 
-        private    DbSet<Book> Books { get; set;}
-     private    DbSet<Author> Authors { get; set;}
+        public DbSet<Book> Books { get; set; }
+        public DbSet<Author> Authors { get; set; }
     }
 }

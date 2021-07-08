@@ -4,7 +4,28 @@
     <projectFile>CRUD-WEB-API-SP-MVC.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccde82ba-3d4a-4416-99a1-08ac64c2d2cd" name="Default Changelist" comment="" />
+    <list default="true" id="ccde82ba-3d4a-4416-99a1-08ac64c2d2cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CRUD-WEB-API-SP-MVC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CRUD-WEB-API-SP-MVC.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Context.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/ModelBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ModelBuilderExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/CRUD-WEB-API-SP-MVC.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/CRUD-WEB-API-SP-MVC.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/CRUD-WEB-API-SP-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/CRUD-WEB-API-SP-MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/CRUD-WEB-API-SP-MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/CRUD-WEB-API-SP-MVC.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/CRUD-WEB-API-SP-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/CRUD-WEB-API-SP-MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/CRUD-WEB-API-SP-MVC.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/CRUD-WEB-API-SP-MVC.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/CRUD-WEB-API-SP-MVC.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/CRUD-WEB-API-SP-MVC.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/CRUD-WEB-API-SP-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/CRUD-WEB-API-SP-MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,10 +43,11 @@
       <option value="$PROJECT_DIR$/Controllers/ProductsController.cs" />
       <option value="$PROJECT_DIR$/Models/Auther.cs" />
       <option value="$PROJECT_DIR$/Models/Book.cs" />
-      <option value="$PROJECT_DIR$/Models/Context.cs" />
       <option value="$PROJECT_DIR$/Models/Author.cs" />
       <option value="$PROJECT_DIR$/Models/ModelBuilderExtensions.cs" />
       <option value="$PROJECT_DIR$/Startup.cs" />
+      <option value="$PROJECT_DIR$/Models/Context.cs" />
+      <option value="$PROJECT_DIR$/Controllers/CatalogueControler.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uLABk9eL07AXpCdc38Eh0kYVsC" />
@@ -82,13 +104,14 @@
       <option name="presentableId" value="Default" />
       <updated>1624434367037</updated>
       <workItem from="1624434389758" duration="7873000" />
+      <workItem from="1625729951727" duration="732000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

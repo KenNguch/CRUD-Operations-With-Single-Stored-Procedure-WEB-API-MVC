@@ -29,8 +29,7 @@ namespace CRUD_WEB_API_SP_MVC.Models
                 },
                 new Book
                 {
-                    Id = 2, BookGenre = Genre.Fiction, Title = "Johnny Walker", AuthorId = 1,
-                    ReleaseDate = DateTime.Now, BestSeller = true
+                    Id = 2, BookGenre = Genre.Fiction, Title = "Johnny Walker", AuthorId = 1, ReleaseDate = DateTime.Now, BestSeller = true
                 },
                 new Book
                 {

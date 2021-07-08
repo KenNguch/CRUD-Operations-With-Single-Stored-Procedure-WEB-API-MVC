@@ -742,11 +742,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kngure\\source\\repos\\CRUD-WEB-API-SP-MVC\\CRUD-WEB-API-SP-MVC\\CRUD-WEB-API-SP-MVC.csproj",
+      "projectUniqueName": "C:\\Users\\kngure\\source\\repos\\KenNguch\\CRUD-WEB-API-SP-MVC\\CRUD-WEB-API-SP-MVC.csproj",
       "projectName": "CRUD-WEB-API-SP-MVC",
-      "projectPath": "C:\\Users\\kngure\\source\\repos\\CRUD-WEB-API-SP-MVC\\CRUD-WEB-API-SP-MVC\\CRUD-WEB-API-SP-MVC.csproj",
+      "projectPath": "C:\\Users\\kngure\\source\\repos\\KenNguch\\CRUD-WEB-API-SP-MVC\\CRUD-WEB-API-SP-MVC.csproj",
       "packagesPath": "C:\\Users\\kngure\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kngure\\source\\repos\\CRUD-WEB-API-SP-MVC\\CRUD-WEB-API-SP-MVC\\obj\\",
+      "outputPath": "C:\\Users\\kngure\\source\\repos\\KenNguch\\CRUD-WEB-API-SP-MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

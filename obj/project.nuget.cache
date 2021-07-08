@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "geOOQ5qeF0DM73IRj80cqMNe7TChlfexu1anBYPq2jpHFRyUVIsUy3Un3aqYYKy3VdnFfmr1Qvu+znZbO8hBww==",
+  "dgSpecHash": "HpaFk+9L5yjCM/FU8w3raY/dupuXlhjURBuCjmJtxQcc7SRoW+T/5A8MtswuQ5s2FIvy1iucgqNYPxo4sjkrCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kngure\\source\\repos\\CRUD-WEB-API-SP-MVC\\CRUD-WEB-API-SP-MVC\\CRUD-WEB-API-SP-MVC.csproj",
+  "projectFilePath": "C:\\Users\\kngure\\source\\repos\\KenNguch\\CRUD-WEB-API-SP-MVC\\CRUD-WEB-API-SP-MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kngure\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",
     "C:\\Users\\kngure\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512",
