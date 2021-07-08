@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccde82ba-3d4a-4416-99a1-08ac64c2d2cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/utils/QueryParameters.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CRUD-WEB-API-SP-MVC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CRUD-WEB-API-SP-MVC.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/CatalogueControler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/CatalogueControler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ProductsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/CRUD-WEB-API-SP-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/CRUD-WEB-API-SP-MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/CRUD-WEB-API-SP-MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/CRUD-WEB-API-SP-MVC.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/CRUD-WEB-API-SP-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/CRUD-WEB-API-SP-MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/CRUD-WEB-API-SP-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/CRUD-WEB-API-SP-MVC.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/utils/QueryParameters.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/07DFB1EA-008B-4715-8970-C250EA4475FC/38/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -30,6 +38,7 @@
       <option value="$PROJECT_DIR$/Startup.cs" />
       <option value="$PROJECT_DIR$/Models/Context.cs" />
       <option value="$PROJECT_DIR$/Controllers/ProductsController.cs" />
+      <option value="$PROJECT_DIR$/utils/QueryParameters.cs" />
       <option value="$PROJECT_DIR$/Controllers/CatalogueControler.cs" />
     </changedPaths>
   </component>
@@ -88,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624434367037</updated>
       <workItem from="1624434389758" duration="7873000" />
-      <workItem from="1625729951727" duration="2895000" />
+      <workItem from="1625729951727" duration="3781000" />
     </task>
     <servers />
   </component>
@@ -97,6 +106,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
