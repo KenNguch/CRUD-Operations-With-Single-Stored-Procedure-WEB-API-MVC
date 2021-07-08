@@ -43,6 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CRUD-WEB-API-SP-MVC: CRUD_WEB_API_SP_MVC">
@@ -86,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624434367037</updated>
       <workItem from="1624434389758" duration="7873000" />
-      <workItem from="1625729951727" duration="989000" />
+      <workItem from="1625729951727" duration="1738000" />
     </task>
     <servers />
   </component>

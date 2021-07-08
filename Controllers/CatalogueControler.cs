@@ -9,25 +9,38 @@ using CRUD_WEB_API_SP_MVC.Models;
 
 namespace CRUD_WEB_API_SP_MVC.Controllers
 {
-	[Route("api/[controller]")]
-	[ApiController]
+    [Route("api/[controller]")]
+    [ApiController]
+    public class CatalogueController : ControllerBase
+    {
+        private readonly Context _context;
 
-	public class CatalogueController : ControllerBase
-	{
-		private readonly Context _context;
 
+        public CatalogueController(Context context)
+        {
+            _context = context;
+            _context.Database.EnsureCreated();
+        }
 
-		public CatalogueController(Context context)
-		{
-			_context = context;
-			_context.Database.EnsureCreated();
-		}
+        [HttpGet]
+        [Route("authors")]
+        public IActionResult GetAllAuthors()
+        {
+            return Ok(_context.Authors.ToArray());
+        }
 
-		[HttpGet]
-		[Route("authors")]
-		public IActionResult GetAllAuthors()
-		{
-			return Ok(_context.Authors.ToArray());
-		}
-	}
+        [HttpGet]
+        [Route("authors/{id:int}")]
+        public IActionResult GetAuthor(int id)
+        {
+            var author = _context.Authors.Find(id);
+
+            if (author == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(author);
+        }
+    }
 }
