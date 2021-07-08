@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccde82ba-3d4a-4416-99a1-08ac64c2d2cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/utils/QueryParameters.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CRUD-WEB-API-SP-MVC.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CRUD-WEB-API-SP-MVC.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/CatalogueControler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/CatalogueControler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/CRUD-WEB-API-SP-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/CRUD-WEB-API-SP-MVC.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/CRUD-WEB-API-SP-MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/CRUD-WEB-API-SP-MVC.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/CRUD-WEB-API-SP-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/CRUD-WEB-API-SP-MVC.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/CRUD-WEB-API-SP-MVC.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/CRUD-WEB-API-SP-MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/CRUD-WEB-API-SP-MVC.dll" afterDir="false" />
@@ -97,7 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1624434367037</updated>
       <workItem from="1624434389758" duration="7873000" />
-      <workItem from="1625729951727" duration="3781000" />
+      <workItem from="1625729951727" duration="4389000" />
+      <workItem from="1625734719495" duration="7597000" />
     </task>
     <servers />
   </component>
@@ -116,6 +115,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

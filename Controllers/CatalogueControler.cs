@@ -48,5 +48,29 @@ namespace CRUD_WEB_API_SP_MVC.Controllers
 
             return Ok(author);
         }
+        [HttpGet]
+        [Route("books")]
+        public async Task<IActionResult> GetAllBooks([FromQuery] QueryParameters queryParameters)
+        {
+            IQueryable<Book> books = _context.Books;
+
+            books = queryParameters.size >0 ? books.Skip(queryParameters.size * (queryParameters.page - 1)).Take(queryParameters.size) : books;
+
+            return Ok(await books.ToArrayAsync());
+        }
+        
+        [HttpPost]
+        [Route("books")]
+        public async Task<ActionResult<Book>> CreateBook([FromBody]Book book)
+        {
+            _context.Books.Add(book);
+            _context.SaveChanges();
+
+            return CreatedAtAction(
+                "GetAllBooks",
+                new {id = book.Id},
+                book
+            );
+        }
     }
 }
